@@ -1,0 +1,17 @@
+{{!-- <h1> I am list here </h1> --}}
+
+
+<div class="container-fluid">
+<img  style="position:absolute;left:-1em;top:0em" width="100%"  height="100%" src="https://cms-cdn.lux.camera/wp-content/uploads/2022/10/27175054/Screen-Shot-2022-10-27-at-09.32.01-copy-1424x774.jpg">
+</div>
+
+
+
+<div class="container mt-5">
+  <h3 style="color:white;font-family:'Courier New', Courier, monospace;position:relative;top:0em">Latests</h3>
+{{#each myphones}}
+<ul class="list-group list-group-horizontal-xxl">
+  <li class="list-group-item">{{ this }}</li>
+</ul>
+{{/each}}
+</div>

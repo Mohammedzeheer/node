@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+{{!--  fadeInDown --}}
+{{!-- fadeIn first --}}
+
+<div class="wrapper">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div style="padding-top:30px" class="">
+      <h3 style="color:rgb(82, 82, 206)">Login</h3>
+      {{!-- <img src="https://instagram.fmaa1-2.fna.fbcdn.net/v/t51.2885-19/136127036_113430260639187_3861621838178804294_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fmaa1-2.fna.fbcdn.net&_nc_cat=103&_nc_ohc=h1vM4B4XhrgAX9g2-4b&tn=SRT6OaPwlVGIELvr&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AfA1-erkAEAdduacchF6OoUGUJTi6LDhEomMpnvtDDBMgQ&oe=63FDC5FE&_nc_sid=1527a3" id="icon" alt="User Icon" /> --}}
+    </div>
+
+    <!-- Login Form -->
+   <form method="post" action="/login">
+      <input type="text" id="email" class="fadeIn second" name="email" placeholder="email">
+      <input type="text" id="password" class="fadeIn third" name="password" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In">
+        
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <p style="color:red">{{error1}}</p>
+      {{!-- <a class="underlineHover" href="#">Forgot Password?</a> --}}
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{!-- <!-- Section: Design Block -->
+<section class=" text-center text-lg-start">
+  <style>
+    .rounded-t-5 {
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+
+    @media (min-width: 992px) {
+      .rounded-tr-lg-0 {
+        border-top-right-radius: 0;
+      }
+
+      .rounded-bl-lg-5 {
+        border-bottom-left-radius: 0.5rem;
+      }
+    }
+  </style>
+  <div class="card mb-3">
+    <div class="row g-0 d-flex align-items-center">
+      <div class="col-lg-4 d-none d-lg-flex">
+        <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/004.jpg" alt="Trendy Pants and Shoes"
+          class="w-100 rounded-t-5 rounded-tr-lg-0 rounded-bl-lg-5" />
+      </div>
+      <div class="col-lg-8">
+        <div class="card-body py-5 px-md-5">
+
+          <form method="post" action="/login">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" name="email" id="form2Example1" class="form-control" />
+              <label class="form-label"  for="form2Example1">Email address</label>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+              <input type="password" name="password"  id="form2Example2" class="form-control" />
+              <label class="form-label" for="form2Example2">Password</label>
+            </div>
+
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                  <label class="form-check-label" for="form2Example31"> Remember me </label>
+                </div>
+              </div>
+
+              <div class="col">
+                <!-- Simple link -->
+                <a href="#!">Forgot password?</a>
+              </div>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section: Design Block --> --}}

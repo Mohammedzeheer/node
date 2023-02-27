@@ -1,0 +1,26 @@
+<div class="container-fluid">
+<img  style="position:absolute; margin-left:0;top:2em;opacity:20%" width="100%"  height="100%" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-finish-select-202209-6-7inch-purple_AV2?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1661028261503">
+</div>
+
+{{!-- <h3>Tables</h3> --}}
+<div class="container mt-5">
+<table style="position:relative;margin:2em" class="table table-striped table-hover" >
+<thead class="table-dark">
+  <tr>
+    {{#each people.[0]}}
+      <th>{{@key}}</th>
+    {{/each}}
+  </tr>
+</thead>
+<tbody>
+  {{#each people}}
+    <tr>
+    	{{#each this}}
+        <td>{{this}}</td>
+      {{/each}}
+    </tr>
+  {{/each}}
+</tbody>
+</table>
+</div>
+
